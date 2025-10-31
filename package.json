@@ -33,7 +33,6 @@
   },
   "main": "index",
   "scripts":  {
-  "start": "node server.js"
     "test": "NODE_ENV=test nyc mocha --require should --reporter spec",
     "coverage": "nyc report --reporter=lcov"
   }
